@@ -7,7 +7,7 @@
 }
 
 .navbar,
-.hero-section {
+#hero-section {
   background-color: #f1f3ff !important;
 }
 
@@ -26,6 +26,10 @@
 .list-group-item {
   border: none !important;
   margin-left: -1.2rem;
+}
+
+.list-group li {
+  margin-bottom: 1rem;
 }
 
 .heading-1 {
@@ -68,4 +72,23 @@
 }
 .active-star {
   color: #f9cc00;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+.menudown {
+  background-color: white !important;
+  border: 1px solid black;
+  padding: 1.125rem 1.5rem;
+}
+
+.card-link {
+  color: black;
+}
+
+.card-link:hover {
+  color: black;
 }
